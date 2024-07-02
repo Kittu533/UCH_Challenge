@@ -1,0 +1,113 @@
+import googleplay from "../../assets/googleplay.png";
+import appstore from "../../assets/appstore.png";
+import logo from "../../assets/Logo.png";
+
+const Footer = () => {
+  return (
+    <footer id="contact-us" className="bg-[#190421]">
+      <div className="flex justify-around mx-auto py-20 gap-32 footer-container">
+        <div>
+          <div>
+            <a href="#home">
+              <img
+                className="w-32 cursor-pointer"
+                src={logo}
+                alt="logofooter.png"
+              />
+            </a>
+            <ul className="footer_item flex items-center gap-8 text-xl">
+              <li>
+                <a
+                  className="text-white transition hover:text-purple-300/75"
+                  href="#home"
+                >
+                  {" "}
+                  FAQ`s{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white transition hover:text-purple-300/75"
+                  href="#about"
+                >
+                  {" "}
+                  Contact Us{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white transition hover:text-purple-300/75"
+                  href="#"
+                >
+                  {" "}
+                  Terms & conditions{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white transition hover:text-purple-300/75"
+                  href="#"
+                >
+                  {" "}
+                  Privacy Policy{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="socialMedia_footer flex space-x-4 mt-5">
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-instagram text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-facebook text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-twitter text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-linkedin text-3xl"></i>
+            </a>
+          </div>
+        </div>
+        <div className="footer_item2">
+          <div>
+            <p className="text-white text-lg mb-4">Join our mailing list</p>
+            <form className="flex items-center bg-white rounded-lg shadow-lg overflow-hidden max-w-lg">
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                className="px-3 py-4 w-64 focus:outline-none flex-grow"
+              />
+              <button
+                type="submit"
+                className="bg-purple-400 text-black px-14 py-5 font-bold rounded-r-lg hover:bg-purple-500 transition flex-shrink-0"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+          <div className="socialMedia_footer2 flex space-x-4 mt-5">
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-instagram text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-facebook text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-twitter text-3xl"></i>
+            </a>
+            <a href="#" className="text-white hover:text-purple-300">
+              <i className="fab fa-linkedin text-3xl"></i>
+            </a>
+          </div>
+          <div className="mt-8 flex gap-8">
+            <img className="w-40" src={googleplay} alt="Google Play" />
+            <img className="w-40" src={appstore} alt="App Store" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

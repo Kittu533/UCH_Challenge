@@ -1,0 +1,195 @@
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+@media screen and (min-width: 835px) {
+    #cta > img{
+        display: none;
+    }
+}
+@media screen and (max-width: 834px) {
+    #home {
+        padding-bottom: 216px;
+    }
+    .home_img > img {
+        width: 100%;
+    }
+    .home_left {
+        padding-left: 16px;
+    }
+    .home_left > h2 {
+        text-align: start;
+    }
+    .home_left > p {
+        text-align: start;
+    }
+    .home_left > a {
+        text-align: start;
+        margin-right: 216px;
+    }
+    .home_right > img {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+    }
+    #services {
+        padding-bottom: 92px;
+    }
+    .services > div > h3 {
+        text-align: left;
+    }
+    .services > div > p {
+        text-align: left;
+        padding-right: 32px;
+    }
+    #cta {
+        padding: 48px;
+    }
+    .banner > div > h2 {
+        font-size: 32px;
+        padding: 8px;
+        margin-right: 200px;
+    }
+    .banner > div > div > img {
+        height: 64px;
+    }
+
+    .banner > img {
+        margin-top: 48px;
+        width: 252px;
+    }
+
+    .benefits > div > img {
+        width: 200vh;
+        margin-top: 0;
+    }
+    .benefits > div > p {
+        text-align: justify;
+        padding: 0;
+    }
+    .benefits-text > h1 {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    #cta > img{
+        display: none;
+    }
+}
+@media screen and (max-width: 390px) {
+    .navbar-item {
+        display: none;
+    }
+    #home {
+        padding-bottom: 70px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_left {
+        padding-left: 16px;
+    }
+    .home_left > h2 {
+        text-align: start;
+        font-weight: 600;
+        font-size: 48px;
+    }
+    .home_left > p {
+        text-align: start;
+        font-size: 20px;
+    }
+    .home_left > a {
+        text-align: start;
+        margin-right: 160px;
+    }
+    .home > div > img {
+        padding: 0 12px;
+        width: 40vh;
+    }
+    /* ABOUT */
+    #about {
+        padding-bottom: 64px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+    }
+
+    .text_about > h1 {
+        font-size: 36px;
+        font-weight: 600;
+        padding-bottom: 24px;
+    }
+
+    .text_about > p {
+        font-size: 20px;
+        line-height: 31.6px;
+        margin-top: 0;
+    }
+    .about_img > img {
+        padding-bottom: 24px;
+        height: 384.95px;
+        width: 295.55px;
+    }
+    /* END ABOUT */
+
+    /* SERVICCES */
+    #services {
+        padding-top: 0;
+    }
+    .services {
+        padding: 0 12px;
+    }
+    /* END SERVICES */
+    #statistics {
+        padding: 12px;
+    }
+    .statistics {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials {
+        display: none;
+    }
+
+    /* BANNER  */
+    #cta {
+        padding: 12px 12px 0 12px;
+    }
+    .banner-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner > div > h2 {
+        font-size: 24;
+        padding-right: 24px;
+        margin: 0;
+        font-weight: 600;
+    }
+    .img_banner > img {
+        padding-left: 18px;
+        margin: 0;
+        width: 45%;
+    }
+    .phone {
+        display: none;
+    }
+
+    /* END BANNER */
+
+    /* BENEFIT */
+    #benefits {
+        padding: 40px 16px 16px 16px;
+    }
+    .benefits > div > img {
+        display: none;
+    }
+    .benefits-text > p {
+        font-size: 20px;
+        line-height: 31.6px;
+    }
+
+    /* BENEFIT */
+}

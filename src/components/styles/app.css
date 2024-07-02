@@ -1,0 +1,324 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* testimoni effect */
+
+/* end testimoni effect */
+@media screen and (min-width: 840px) {
+  
+  #cta > img {
+    display: none;
+  }
+  .card {
+    box-shadow: inset 0 2px 2px 2px rgb(0 0 0 / 0.08);
+  }
+}
+@media screen and (max-width: 840px) {
+  /* Nav */
+  /* End Nav */
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #home {
+    padding-bottom: 216px;
+  }
+  .home_img > img {
+    width: 100%;
+  }
+  .home_left {
+    padding-left: 16px;
+  }
+  .home_left > h2 {
+    text-align: start;
+  }
+  .home_left > p {
+    text-align: start;
+  }
+  .home_left > a {
+    text-align: start;
+    margin-right: 216px;
+  }
+  .home_right > img {
+    width: 100%;
+  }
+  .about {
+    display: flex;
+  }
+  #services {
+    padding-bottom: 92px;
+  }
+  .services > div > h3 {
+    text-align: left;
+  }
+  .services > div > p {
+    text-align: left;
+    padding-right: 32px;
+  }
+  #cta {
+    padding: 48px;
+  }
+  .banner > div > h2 {
+    font-size: 32px;
+    padding: 8px;
+    margin-right: 200px;
+  }
+  .banner > div > div > img {
+    height: 64px;
+  }
+
+  .banner > img {
+    margin-top: 48px;
+    width: 252px;
+  }
+
+  .benefits > div > img {
+    width: 200vh;
+    margin-top: 0;
+  }
+  .benefits > div > p {
+    text-align: justify;
+    padding: 0;
+  }
+  .benefits-text > h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+  #cta > img {
+    display: none;
+  }
+
+  .footer_item {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .socialMedia_footer > a {
+    padding-top: 16px;
+  }
+
+  /* Testimoni */
+  #testimonials {
+    padding: 0 82px 128px 82px;
+  }
+  .card > .item_down {
+    padding-top: 48px;
+  }
+  .card {
+    box-shadow: inset 0 2px 2px 2px rgb(0 0 0 / 0.08);
+  }
+  .card_item {
+    padding: 12px 32px;
+  }
+  .nextArrow {
+    top: 110%;
+    right: 35%;
+    padding: 2px;
+    transform: translate(50%, -50%);
+  }
+  .prevArrow {
+    top: 110%;
+    left: 35%;
+    padding: 2px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* End Testimoni */
+}
+@media screen and (max-width: 600px) {
+  /* End Nav */
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .navbar-item {
+    display: none;
+  }
+  #home {
+    padding-bottom: 70px;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .home_left {
+    padding-left: 16px;
+  }
+  .home_left > h2 {
+    text-align: start;
+    font-weight: 600;
+    font-size: 48px;
+  }
+  .home_left > p {
+    text-align: start;
+    font-size: 20px;
+  }
+  .home_left > a {
+    display: flex;
+    text-align: start;
+    margin-right: 160px;
+    background-color: #d6bcfa; /* Ensure button background is the same as other states */
+    padding: 16px 24px; /* Ensure padding is suitable for mobile */
+    border-radius: 0.5rem;
+    gap: 12px;
+    align-items: center; /* Ensure border-radius is suitable for mobile */
+    width: 100%; /* Set width to 100% */
+    max-width: 200px; /* Set a max-width for the button */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  .home > div > img {
+    padding: 0 12px;
+    width: 40vh;
+  }
+  /* ABOUT */
+  #about {
+    padding-bottom: 64px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .text_about > h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 24px;
+  }
+
+  .text_about > p {
+    font-size: 20px;
+    line-height: 31.6px;
+    margin-top: 0;
+  }
+  .about_img > img {
+    padding-bottom: 24px;
+    height: 384.95px;
+    width: 295.55px;
+  }
+  /* END ABOUT */
+
+  /* SERVICCES */
+  #services {
+    padding-top: 0;
+  }
+  .services {
+    padding: 0 12px;
+  }
+  /* END SERVICES */
+  #statistics {
+    padding: 12px;
+  }
+  .statistics {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials {
+    display: none;
+  }
+
+  /* BANNER  */
+  #cta {
+    padding: 12px 12px 0 12px;
+  }
+  .banner-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner > div > h2 {
+    font-size: 38px;
+    padding-right: 24px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 46px;
+  }
+  .img_banner > img {
+    padding-left: 18px;
+    margin: 0;
+    width: 45%;
+  }
+  .phone {
+    display: none;
+  }
+  #cta > img {
+    display: flex;
+    padding-top: 24px;
+  }
+
+  /* END BANNER */
+
+  /* BENEFIT */
+  #benefits {
+    padding: 40px 16px 16px 16px;
+  }
+  .benefits > div > img {
+    display: none;
+  }
+  .benefits-text > p {
+    font-size: 20px;
+    line-height: 31.6px;
+  }
+
+  /* BENEFIT */
+
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  .footer_item {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .socialMedia_footer {
+    display: none;
+  }
+  .socialMedia_footer2 {
+    justify-content: flex-start;
+  }
+
+  /* END FOOTER */
+
+  /* Testimoni */
+  #testimonials {
+    padding: 0;
+    padding-top: 32px;
+    padding-bottom: 96px;
+  }
+  .card > .item_down {
+    padding-top: 48px;
+  }
+  .card_space > h2 {
+    text-align: start;
+    font-weight: 600;
+    padding-top: 24px;
+  }
+  .card {
+    box-shadow: inset 0 2px 2px 2px rgb(0 0 0 / 0.08);
+  }
+  .card_item {
+    padding: 12px 32px;
+  }
+  .nextArrow {
+    top: 110%;
+    right: 35%;
+    padding: 2px;
+    transform: translate(50%, -50%);
+  }
+  .prevArrow {
+    top: 110%;
+    left: 35%;
+    padding: 2px;
+    transform: translate(-50%, -50%);
+  }
+}
