@@ -5,24 +5,23 @@ import logo from "../../assets/Logo.png";
 const Footer = () => {
   return (
     <footer id="contact-us" className="bg-[#190421]">
-      <div className="flex justify-around mx-auto py-20 gap-32 footer-container">
-        <div>
+      <div className="flex flex-col lg:flex-row justify-around mx-auto py-20 gap-8 lg:gap-32 footer-container">
+        <div className="flex flex-col items-start">
           <div>
             <a href="#home">
               <img
-                className="w-32 cursor-pointer"
+                className="w-32 cursor-pointer mb-4"
                 src={logo}
                 alt="logofooter.png"
               />
             </a>
-            <ul className="footer_item flex items-center gap-8 text-xl">
+            <ul className="footer_item flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8 text-xl">
               <li>
                 <a
                   className="text-white transition hover:text-purple-300/75"
                   href="#home"
                 >
-                  {" "}
-                  FAQ`s{" "}
+                  FAQ`s
                 </a>
               </li>
               <li>
@@ -30,8 +29,7 @@ const Footer = () => {
                   className="text-white transition hover:text-purple-300/75"
                   href="#about"
                 >
-                  {" "}
-                  Contact Us{" "}
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -39,8 +37,7 @@ const Footer = () => {
                   className="text-white transition hover:text-purple-300/75"
                   href="#"
                 >
-                  {" "}
-                  Terms & conditions{" "}
+                  Terms & conditions
                 </a>
               </li>
               <li>
@@ -48,13 +45,12 @@ const Footer = () => {
                   className="text-white transition hover:text-purple-300/75"
                   href="#"
                 >
-                  {" "}
-                  Privacy Policy{" "}
+                  Privacy Policy
                 </a>
               </li>
             </ul>
           </div>
-          <div className="socialMedia_footer flex space-x-4 mt-5">
+          <div className="socialMedia_footer flex mt-5 space-x-4">
             <a href="#" className="text-white hover:text-purple-300">
               <i className="fab fa-instagram text-3xl"></i>
             </a>
@@ -69,18 +65,18 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="footer_item2">
+        <div className="footer_item2 flex flex-col items-start">
           <div>
             <p className="text-white text-lg mb-4">Join our mailing list</p>
-            <form className="flex items-center bg-white rounded-lg shadow-lg overflow-hidden max-w-lg">
+            <form className="flex items-stretch bg-white rounded-lg shadow-lg overflow-hidden max-w-lg">
               <input
                 type="email"
                 placeholder="Enter Your Email"
-                className="px-3 py-4 w-64 focus:outline-none flex-grow"
+                className="px-3 py-4 w-full lg:w-64 focus:outline-none"
               />
               <button
                 type="submit"
-                className="bg-purple-400 text-black px-14 py-5 font-bold rounded-r-lg hover:bg-purple-500 transition flex-shrink-0"
+                className="bg-purple-400 text-black px-14 py-5 font-bold hover:bg-purple-500 transition flex-shrink-0"
               >
                 Send
               </button>

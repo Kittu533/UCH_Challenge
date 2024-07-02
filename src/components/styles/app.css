@@ -7,12 +7,14 @@
 
 /* end testimoni effect */
 @media screen and (min-width: 840px) {
-  
   #cta > img {
     display: none;
   }
   .card {
     box-shadow: inset 0 2px 2px 2px rgb(0 0 0 / 0.08);
+  }
+  .socialMedia_footer2 {
+    display: none;
   }
 }
 @media screen and (max-width: 840px) {
@@ -127,6 +129,10 @@
     padding: 2px;
     transform: translate(-50%, -50%);
   }
+  .socialMedia_footer2 {
+    display: none;
+  }
+  
 
   /* End Testimoni */
 }
@@ -268,23 +274,21 @@
   /* BENEFIT */
 
   /* footer */
+
   .footer-container {
     flex-direction: column;
     padding: 20px 16px;
     gap: 16px;
   }
-
   .footer_item {
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
+    align-items: start;
   }
-
   .socialMedia_footer {
     display: none;
   }
   .socialMedia_footer2 {
     justify-content: flex-start;
+    display: flex;
   }
 
   /* END FOOTER */
