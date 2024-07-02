@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="socialMedia_footer flex mt-5 space-x-4">
+          <div className="socialMedia_footer flex mt-5 space-x-4 ">
             <a href="#" className="text-white hover:text-purple-300">
               <i className="fab fa-instagram text-3xl"></i>
             </a>
@@ -82,7 +82,7 @@ const Footer = () => {
               </button>
             </form>
           </div>
-          <div className="socialMedia_footer2 flex space-x-4 mt-5">
+          <div className="socialMedia_footer2 flex space-x-4 mt-5 md:hidden lg:hidden">
             <a href="#" className="text-white hover:text-purple-300">
               <i className="fab fa-instagram text-3xl"></i>
             </a>
