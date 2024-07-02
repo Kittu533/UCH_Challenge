@@ -4,7 +4,7 @@ import logo from "../../assets/Logo.png";
 
 const Footer = () => {
   return (
-    <footer id="contact-us" className="bg-[#190421]">
+    <footer id="contact-us" className="bg-[#190421] md:pl-20">
       <div className="flex flex-col lg:flex-row justify-around mx-auto py-20 gap-8 lg:gap-32 footer-container">
         <div className="flex flex-col items-start">
           <div>
@@ -82,7 +82,7 @@ const Footer = () => {
               </button>
             </form>
           </div>
-          <div className="socialMedia_footer2 flex space-x-4 mt-5 md:hidden lg:hidden">
+          <div className="socialMedia_footer2 flex space-x-4 mt-5 md:hidden lg:hidden ">
             <a href="#" className="text-white hover:text-purple-300">
               <i className="fab fa-instagram text-3xl"></i>
             </a>
